@@ -17,3 +17,10 @@ print "%s world, %s" % (str2, "are you ok?")
 # 字符串的拼接使用join来处理。字符串的拼接最好还是使用join来处理
 print "".join(["hello", " world"])
 print ";".join(["hello", "world", "are you ok?"])
+
+# 字符串的format方法。可以把{}看成占位符。不加数字就是顺序的取值。
+str3 = "hello world {1} {0}"
+print str3.format("shanghai", "chongqing")
+# 使用标识符来进行格式化
+str4 = "hello shanghai {city1} {city2}"
+print str4.format(city1="chongqing", city2="world")
