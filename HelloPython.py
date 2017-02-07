@@ -13,6 +13,7 @@ print len(str1.decode('utf-8'))
 str2 = "hello"
 print "%s world" % str2
 print "%s world, %s" % (str2, "are you ok?")
+print "%(name)s world" % {"name" : "shanghai"}
 
 # 字符串的拼接使用join来处理。字符串的拼接最好还是使用join来处理
 print "".join(["hello", " world"])
