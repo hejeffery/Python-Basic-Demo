@@ -69,4 +69,24 @@ print list13
 # 注意:range(起始点, 终点, 步长),终点是开区间
 print [a for a in range(1, 6)]
 print [a for a in range(1, 6, 2)]
-print [a for a in range(1, 6) if a & 1 == 0]# if是条件,这里是取偶数
+print [a for a in range(1, 6) if a & 1 == 0] # if是条件,这里是取偶数
+print ["hello %d" % a for a in xrange(10)] # 生成格式化的字符串
+print [(a, b) for a in range(1, 5) for b in range(1, 5)] # 生成元组
+print ["%d haha" % a for a in range(1, 11)] # 生成格式化的字符串
+print [(a, b) for a in range(0, 3, 2) for b in range(0, 3, 2)] # 生成元组
+
+# 内置list方法
+# 注意:传入的参数必须是可迭代的对象,比如字符串,元组
+list14 = "abc"
+print list(list14)
+list14 = (1, 2, 3)
+print list(list14)
+
+# 下面的操作就是删除引用
+list15 = [8, 9, 10, 11]
+list16 = list15[:]
+del list15
+print list16
+
+truple
+
