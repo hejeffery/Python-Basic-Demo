@@ -88,5 +88,12 @@ list16 = list15[:]
 del list15
 print list16
 
-truple
+# pop pop可以pop任意索引的值
+# 注意:pop是的索引值不能越界
+list17 = [1, 2, 3, 4, 5]
+popValue1 = list17.pop(3)
+popValue2 = list17.pop()
+print popValue1
+print popValue2
+
 
