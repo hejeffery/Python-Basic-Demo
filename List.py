@@ -18,12 +18,12 @@ print list3[1 : : 2]
 # 打印列表中的最后1个元素~倒数第3个元素,步长必须是-1
 print list3[-1 : -4 : -1]
 
-# 列表的相加
+# 列表的相加,使用+会新生成一个列表
 list4 = [1, 2]
 list5 = [3, 4]
 print list4 + list5
 
-# 使用extend
+# 使用extend,不会生成一个新列表
 list6 = [1, 2, 3, 4, 5]
 list7 = [6, 7]
 list6.extend(list7)
