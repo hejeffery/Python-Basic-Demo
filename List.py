@@ -1,5 +1,7 @@
 # coding=utf-8
 
+# list，有序的
+
 list1 = [1, 2, 3, 4, 5]
 # 获取列表中的第3个元素
 print list1[2]
